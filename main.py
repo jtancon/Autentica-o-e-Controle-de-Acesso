@@ -24,11 +24,16 @@ def main():
     usuarios = carregar_usuarios()
     permissoes = carregar_permissoes()
 
+    print("========================================")
+    print("Bem Vindo ao nosso Sistema de Permissões")
+    print("========================================")
+
+
     username = input("Digite seu nome de usuário: ")
     password = input("Digite sua senha: ")
 
     if autenticar_usuario(usuarios, username, password):
-        print("Autenticação bem-sucedida!")
+        print("Autenticação bem-sucedida! Bem vindo", username)
     else:
         print("Usuário ou senha inválidos.")
         return
