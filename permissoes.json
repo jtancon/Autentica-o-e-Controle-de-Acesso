@@ -1,0 +1,14 @@
+{
+    "vinicius": {
+      "ler": ["arquivo1", "arquivo2"],
+      "escrever": ["arquivo1"],
+      "apagar": ["arquivo2"]
+    },
+    "joao": {
+      "ler": ["arquivo2"],
+      "escrever": ["arquivo2"],
+      "apagar": ["arquivo1"]
+
+    }
+}
+  
