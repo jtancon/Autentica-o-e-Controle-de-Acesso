@@ -1,5 +1,6 @@
 import json
-
+#João Victor Monteiro Tancon
+#Vinícius Yudi
 def carregar_usuarios():
     with open('usuarios.json') as f:
         return json.load(f)
@@ -23,7 +24,7 @@ def verificar_permissao(permissoes, username, acao, recurso):
 def criar_arquivo(permissoes, username, acao, recurso):
     if username in permissoes:
         if acao in permissoes[username] and recurso in permissoes[username][acao]:
-            with open(recurso, 'w') as f:
+            with open(recurso + '.json', 'w') as f:
                 f.write('')
             return True
     return False

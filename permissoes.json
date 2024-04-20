@@ -3,13 +3,13 @@
       "ler": ["arquivo1", "arquivo2"],
       "escrever": ["arquivo1"],
       "apagar": ["arquivo2"],
-      "criar": ["arquivo1"]
+      "criar": ["arquivo1", "arquivo2","arquivo3"]
     },
     "joao": {
       "ler": ["arquivo2"],
       "escrever": ["arquivo2"],
       "apagar": ["arquivo1"],
-      "criar": ["arquivo3"]
+      "criar": ["arquivo1", "arquivo2","arquivo3"]
     }
 }
   
